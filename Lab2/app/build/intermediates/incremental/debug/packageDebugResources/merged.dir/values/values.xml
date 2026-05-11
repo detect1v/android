@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="programming_languages">
+        <item>— оберіть зі списку —</item>
+        <item>Python</item>
+        <item>JavaScript</item>
+        <item>Java</item>
+        <item>Kotlin</item>
+        <item>C++</item>
+        <item>C#</item>
+        <item>Swift</item>
+        <item>Go</item>
+        <item>Rust</item>
+        <item>TypeScript</item>
+        <item>PHP</item>
+    </string-array>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">LanguagePickerFragments</string>
+    <style name="Base.Theme.Lab2" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.Lab2" parent="Base.Theme.Lab2"/>
+</resources>
