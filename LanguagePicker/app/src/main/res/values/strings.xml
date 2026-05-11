@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">LanguagePicker</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string-array name="programming_languages">
+        <item>— оберіть зі списку —</item>
+        <item>Python</item>
+        <item>JavaScript</item>
+        <item>Java</item>
+        <item>Kotlin</item>
+        <item>C++</item>
+        <item>C#</item>
+        <item>Swift</item>
+        <item>Go</item>
+        <item>Rust</item>
+        <item>TypeScript</item>
+        <item>PHP</item>
+        <item>Ruby</item>
+    </string-array>
+</resources>
