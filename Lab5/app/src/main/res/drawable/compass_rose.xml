@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="280dp"
+    android:height="280dp"
+    android:viewportWidth="280"
+    android:viewportHeight="280">
+
+    <!-- Зовнішнє коло -->
+    <path
+        android:fillColor="#1A1A2E"
+        android:strokeColor="#FFD700"
+        android:strokeWidth="2"
+        android:pathData="M140,10 A130,130 0 1,1 139.99,10 Z"/>
+
+    <!-- Внутрішнє коло -->
+    <path
+        android:fillColor="#1A1A2E"
+        android:strokeColor="#333355"
+        android:strokeWidth="1"
+        android:pathData="M140,40 A100,100 0 1,1 139.99,40 Z"/>
+
+    <!-- Північ червона -->
+    <path
+        android:fillColor="#FF4444"
+        android:pathData="M140,15 L134,35 L140,30 L146,35 Z"/>
+
+    <!-- Південь -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M140,265 L134,245 L140,250 L146,245 Z"/>
+
+    <!-- Схід -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M265,140 L245,134 L250,140 L245,146 Z"/>
+
+    <!-- Захід -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M15,140 L35,134 L30,140 L35,146 Z"/>
+
+    <!-- Градусні мітки -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#555577"
+        android:strokeWidth="1"
+        android:pathData="M140,20 L140,30"/>
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#555577"
+        android:strokeWidth="1"
+        android:pathData="M232,48 L225,55"/>
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#555577"
+        android:strokeWidth="1"
+        android:pathData="M260,140 L250,140"/>
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#555577"
+        android:strokeWidth="1"
+        android:pathData="M232,232 L225,225"/>
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#555577"
+        android:strokeWidth="1"
+        android:pathData="M140,260 L140,250"/>
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#555577"
+        android:strokeWidth="1"
+        android:pathData="M48,232 L55,225"/>
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#555577"
+        android:strokeWidth="1"
+        android:pathData="M20,140 L30,140"/>
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#555577"
+        android:strokeWidth="1"
+        android:pathData="M48,48 L55,55"/>
+
+    <!-- Центральне коло -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M140,133 A7,7 0 1,1 139.99,133 Z"/>
+
+</vector>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="280dp"
+    android:height="280dp"
+    android:viewportWidth="280"
+    android:viewportHeight="280">
+
+    <!-- Червона частина стрілки (північ) -->
+    <path
+        android:fillColor="#FF4444"
+        android:pathData="M140,50 L133,140 L140,130 L147,140 Z"/>
+
+    <!-- Біла частина стрілки (південь) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M140,230 L133,140 L140,150 L147,140 Z"/>
+
+    <!-- Центральне коло -->
+    <path
+        android:fillColor="#FFD700"
+        android:strokeColor="#0A0A1A"
+        android:strokeWidth="1"
+        android:pathData="M140,134 A6,6 0 1,1 139.99,134 Z"/>
+
+</vector>
