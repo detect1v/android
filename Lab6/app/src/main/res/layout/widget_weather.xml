@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/widget_background"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/tvWidgetCity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Місто"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tvWidgetTemp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="--°C"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tvWidgetDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Завантаження..."
+        android:textColor="#E0E0E0"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:id="@+id/tvWidgetHumidity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Вологість: --%"
+        android:textColor="#B0BEC5"
+        android:textSize="11sp"
+        android:layout_marginTop="4dp"/>
+
+</LinearLayout>
